@@ -21,8 +21,6 @@ def cli(cpp, debug, version, device, lib, update, package_name):
         path = Path("project/main.cpp")
         def createProject():
             print("Creating project...")
-
-            time.sleep(2)
             
             install.install("cpp_project")
 
@@ -55,7 +53,6 @@ def cli(cpp, debug, version, device, lib, update, package_name):
             print("C++ project not created yet, use \u001b[0;1mvdk --cpp\u001b[0m to create one.")
         else:
             os.system("g++ project/main.cpp")
-            time.sleep(2)
             os.system("./a.out")
 
     elif version:
@@ -98,7 +95,6 @@ def cli(cpp, debug, version, device, lib, update, package_name):
     return 'Hello ' + name""")
             libr.close()
 
-            time.sleep(4)
             print("\u001b[32;1m[Installed Library]\u001b[0m")
             
             f = open("main.py", "w+")
