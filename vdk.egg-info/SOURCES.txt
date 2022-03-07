@@ -1,8 +1,0 @@
-cli.py
-setup.py
-vdk.egg-info/PKG-INFO
-vdk.egg-info/SOURCES.txt
-vdk.egg-info/dependency_links.txt
-vdk.egg-info/entry_points.txt
-vdk.egg-info/requires.txt
-vdk.egg-info/top_level.txt
